@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <title>WebStorage</title>
+</head>
+<body>
+    <div class="login-signup">
+        <h2>Login</h2>
+        <form id = 'login'>
+          <div class="user-box">
+            <input type="email" name="" required="" id='login-email'>
+            <label>Email</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="" required="" id = 'login-pwd'>
+            <label>Password</label>
+          </div>
+         <div class="btn">
+             <button id = 'login-submit'>Submit</button>
+         </div>
+         <h4>New User ? <span id = 'nav-to-signup'>click here</span></h4>
+        </form>
+      </div>
+      <div class="login-signup">
+        <h2>Sign UP</h2>
+        <form id = 'signup'>
+          <div class="user-box">
+            <input type="text" name="" required="" id = 'signup-username'>
+            <label>Username</label>
+          </div>
+          <div class="user-box">
+            <input type="email" name="" required="" id = 'signup-email'>
+            <label>Email</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="" required="" id = 'signup-pwd'>
+            <label>Password</label>
+          </div>
+         <div class="btn">
+             <button id='signup-submit'>Submit</button>
+         </div>
+         <h4>Already have an account ? <span id = 'nav-to-login'>Click Here</span></h4>
+        </form>
+      </div>
+      <div class = 'user-details'>
+        <h1>
+
+        </h1>
+        <button></button>
+      </div>
+    <script src="app.js"></script>
+</body>
+</html>
